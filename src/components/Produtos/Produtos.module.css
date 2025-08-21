@@ -1,0 +1,137 @@
+.produtos{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulos{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+
+.titulos h2{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    font-family: 'cinzel', serif;
+    font-weight: 500;
+    color: #000;
+}
+
+.titulos p{
+    font-size: 1.1rem;
+    color: #444;
+    margin-top: 25px;
+}
+
+.joia_img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 50px 0px;
+}
+
+.card_joia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card_joia picture img{
+    max-width: 100%;
+    height: 250px;
+    object-fit: contain;
+    transition: 0.3s ease-in-out;
+}
+
+.card_joia{
+    position: relative;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.card_joia:hover{
+    border: 1px solid #d1cbcb7e;
+    box-shadow: 0 10px 20px rgba(133, 133, 133, 0.1);
+}
+
+.card_joia h3{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #222;
+}
+
+.card_joia .preco{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: #000;
+}
+
+.card_joia .botao{
+    margin-top: 15px;
+    background: #000;
+    color: #d4af37;
+    padding: 12px 25px;
+    border: 2px solid #d4af37;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.card_joia .botao:hover{
+    background: #d4af37;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.card_joia .selo,
+.card_joia .seloNovo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+.card_joia .selo {
+    background-color: #d4af37;
+    color: #000;
+}
+
+.card_joia .seloNovo {
+    background-color: #ff4747; 
+    color: #fff;
+}
+
+
+/*Responsividade*/
+@media(max-width: 768px){
+    .joia_img{
+        grid-template-columns: 1fr;
+    }
+    
+    .titulos h2{
+        font-size: 2rem;
+    }
+
+    .titulos p{
+        font-size: 1rem;
+    }
+
+    .card_joia picture img{
+        height: 150px;
+    }
+}

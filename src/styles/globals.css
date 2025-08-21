@@ -13,24 +13,6 @@ img{
   object-fit: cover;
 }
 
-/*Responsividade*/
-@media(max-width: 768px){
-  .topo{
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 20px;
-  }
-
-  .topo picture{
-    max-width: 80px;
-    margin-bottom: 0;
-  }
-
-  .topo nav a{
-    font-size: 12px;
-  }
-
-  
+section{
+  scroll-margin-top: 120px ;
 }
-

@@ -9,7 +9,7 @@ export default function Topo() {
                 </picture>
 
                 <nav>
-                    <a href="#">Produtos</a>
+                    <a href="#produtos">Produtos</a>
                     <a href="#">Sobre</a>
                     <a href="#">Contato</a>
 
