@@ -1,0 +1,91 @@
+#contato{
+    text-align: center;
+    padding: 70px 20px;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+.contato h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: goldenrod;
+}
+
+.contato p{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.central_redes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+   
+}
+
+.central_redes img{
+    display: inline-block;
+    max-width: 16px;
+}
+
+.bloco_contato{
+    text-align: center;
+    width: 250px;
+}
+
+.bloco_contato h4{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: goldenrod;
+    font-family: 'Playfair Display', serif;
+}
+
+.bloco_contato ul{
+    list-style: none;
+    padding: 0;
+}
+
+.bloco_contato ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.bloco_contato ul li img{
+    width: 20px;
+    height: auto;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px){
+    #contato{
+        padding: 50px 20px;
+    }
+
+    .contato h2{
+        font-size: 1.5rem;
+    }
+
+    .contato p{
+        font-size: 1rem;
+    }
+
+    .central_redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+

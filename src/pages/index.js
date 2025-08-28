@@ -3,6 +3,8 @@ import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
 import Capa from "@/components/Capa";
 import Produtos from "@/components/Produtos";
+import Sobre from "@/components/Sobre";
+import Contato from "@/components/Contato";
 
 export default function Home() {
   return (
@@ -22,6 +24,14 @@ export default function Home() {
 
       <section>
         <Produtos />
+      </section>
+
+      <section>
+        <Sobre />
+      </section>
+
+      <section>
+        <Contato />
       </section>
       
     </>
